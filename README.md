@@ -2,6 +2,10 @@
 
 The "Cursor" theme brings the modern and sleek interface design of the popular Cursor IDE to the Zed editor. This theme faithfully recreates the visual aesthetics, color schemes, and design elements that make Cursor IDE distinctive, offering Zed users the familiar and polished look of this innovative AI-powered development environment. Experience the best of both worlds by combining Zed's performance with Cursor's refined visual design.
 
+This extension currently provides two theme variants:
+- `Cursor Dark`
+- `Cursor Dark Midnight`
+
 ## Theme Overview
 
 The "Cursor" theme is meticulously designed to replicate the visual characteristics and user interface elements of the Cursor IDE, bringing its modern dark theme, sophisticated color palette, and clean design philosophy to Zed. The theme features carefully selected colors, typography, and interface elements that mirror Cursor's professional appearance while maintaining optimal readability and visual comfort during extended coding sessions.
@@ -18,7 +22,7 @@ The "Cursor" theme is meticulously designed to replicate the visual characterist
 
 - **Download**: Download the theme files (`cursor.json`) from the repository.
 - **Add**: Move the downloaded JSON file to the `~/.config/zed/themes/` directory on your macOS.
-- **Activate**: Open the Command Palette in Zed by typing `theme selector: toggle`, then search for "Cursor" to apply the theme.
+- **Activate**: Open the Command Palette in Zed by typing `theme selector: toggle`, then search for "Cursor Dark" or "Cursor Dark Midnight" to apply a theme.
 
 **2. Install via Command Palette**
 
@@ -30,14 +34,19 @@ The "Cursor" theme is meticulously designed to replicate the visual characterist
 
 - **Open**: Open the Command Palette in Zed by navigating to the menu and selecting `Go > Open Command Palette...`.
 - **Type**: Type `theme selector: toggle`.
-- **Search**: Search for "Cursor" and select it from the list to activate the theme.
+- **Search**: Search for "Cursor Dark" or "Cursor Dark Midnight" and select it from the list to activate the theme.
 
 ## Theme Details
 
-### Cursor Theme
+### Cursor Dark
 
 - **Accent Colors**: Modern color palette inspired by Cursor IDE's interface, featuring sophisticated blues, subtle grays, and carefully chosen accent colors for optimal visual hierarchy.
 - **Syntax Highlighting**: Professional syntax highlighting that mirrors Cursor's approach to code colorization, providing excellent readability and semantic distinction between different code elements, keywords, strings, comments, and variables.
+
+### Cursor Dark Midnight
+
+- **Tone**: A deeper blue-gray midnight palette based on Cursor's Midnight variant.
+- **Syntax Highlighting**: Balanced contrast with cool Nordic accents for keywords, types, strings, and diagnostics.
 
 The theme ensures a familiar and comfortable experience for developers transitioning from or inspired by Cursor IDE, bringing its polished visual design and modern aesthetics to the Zed editor environment.
 
