@@ -447,6 +447,7 @@
             "name": "Cursor Dark Midnight",
             "appearance": "dark",
             "style": {
+                // Accent colors
                 "accents": [
                     "#ECEFF4FF",
                     "#7D7C9BFF",
@@ -456,37 +457,44 @@
                     "#BF616AFF",
                     "#EBCB8BFF"
                 ],
+                // Base colors and borders
                 "border": "#FFFFFF0D",
                 "border.disabled": "#7B88A199",
                 "border.focused": "#88C0D0FF",
                 "border.selected": "#88C0D0FF",
                 "border.transparent": "#00000000",
                 "border.variant": "#272C36FF",
+                // Surfaces
                 "background": "#1E2127FF",
                 "background.appearance": "opaque",
                 "elevated_surface.background": "#191C22FF",
                 "surface.background": "#191C22FF",
+                // Elements
                 "element.active": "#272C36FF",
                 "element.background": "#191C22FF",
                 "element.disabled": "#434C5EFF",
                 "element.hover": "#272C36B3",
                 "element.selected": "#272C36FF",
+                // Ghost elements
                 "drop_target.background": "#88C0D099",
                 "ghost_element.active": "#272C36FF",
                 "ghost_element.background": "#191C2200",
                 "ghost_element.disabled": "#434C5EFF",
                 "ghost_element.hover": "#272C36B3",
                 "ghost_element.selected": "#272C36FF",
+                // Text
                 "text.accent": "#ECEFF4FF",
                 "text.disabled": "#434C5EFF",
                 "text.muted": "#7B88A199",
                 "text.placeholder": "#D8DEE999",
                 "text": "#7B88A1FF",
+                // Icons
                 "icon.accent": "#88C0D0FF",
                 "icon.disabled": "#434C5EFF",
                 "icon.muted": "#7B88A199",
                 "icon.placeholder": "#D8DEE999",
                 "icon": "#D8DEE9FF",
+                // Bars
                 "status_bar.background": "#191C22FF",
                 "tab.active_background": "#1E2127FF",
                 "tab_bar.background": "#191C22FF",
@@ -494,15 +502,18 @@
                 "title_bar.background": "#191C22FF",
                 "title_bar.inactive_background": "#191C22FF",
                 "toolbar.background": "#1E2127FF",
+                // Search and panels
                 "panel.background": "#191C22FF",
                 "panel.focused_border": "#88C0D0FF",
                 "pane.focused_border": "#88C0D0FF",
                 "search.match_background": "#88C0D066",
+                // Scrollbar
                 "scrollbar.thumb.background": "#434C5E55",
                 "scrollbar.thumb.border": "#00000000",
                 "scrollbar.thumb.hover_background": "#434C5E55",
                 "scrollbar.track.background": "#1E2127FF",
                 "scrollbar.track.border": "#FFFFFF0D",
+                // Main editor
                 "editor.active_line.background": "#434C5E33",
                 "editor.active_line_number": "#7B88A1FF",
                 "editor.background": "#1E2127FF",
@@ -517,10 +528,12 @@
                 "editor.subheader.background": "#191C22FF",
                 "editor.wrap_guide": "#434C5EFF",
                 "editor.active_wrap_guide": "#4C566AFF",
+                // Terminal
                 "terminal.background": "#191C22FF",
                 "terminal.bright_foreground": "#ECEFF4FF",
                 "terminal.dim_foreground": "#4C566AFF",
                 "terminal.foreground": "#D8DEE9FF",
+                // Terminal ANSI colors
                 "terminal.ansi.bright_black": "#4C566AFF",
                 "terminal.ansi.bright_blue": "#81A1C1FF",
                 "terminal.ansi.bright_cyan": "#8FBCBBFF",
@@ -545,10 +558,12 @@
                 "terminal.ansi.red": "#BF616AFF",
                 "terminal.ansi.white": "#E5E9F0FF",
                 "terminal.ansi.yellow": "#EBCB8BFF",
+                // Links and conflicts
                 "conflict": "#EBCB8BFF",
                 "conflict.background": "#EBCB8B22",
                 "conflict.border": "#EBCB8BFF",
                 "link_text.hover": "#8FBCBBFF",
+                // File status
                 "created": "#A3BE8CFF",
                 "created.background": "#A3BE8C22",
                 "created.border": "#A3BE8CFF",
@@ -561,6 +576,7 @@
                 "renamed": "#88C0D0FF",
                 "renamed.background": "#88C0D022",
                 "renamed.border": "#88C0D0FF",
+                // Messages
                 "error": "#BF616AFF",
                 "error.background": "#BF616A22",
                 "error.border": "#BF616AFF",
@@ -573,6 +589,7 @@
                 "warning": "#EBCB8BFF",
                 "warning.background": "#EBCB8B22",
                 "warning.border": "#EBCB8BFF",
+                // States and indicators
                 "hidden": "#434C5EFF",
                 "hidden.background": "#434C5E22",
                 "hidden.border": "#434C5EFF",
@@ -588,6 +605,7 @@
                 "unreachable": "#BF616AFF",
                 "unreachable.background": "#BF616A22",
                 "unreachable.border": "#BF616AFF",
+                // Players
                 "players": [
                     {
                         "cursor": "#ECEFF4FF",
@@ -625,6 +643,7 @@
                         "selection": "#88C0D033"
                     }
                 ],
+                // Syntax highlighting
                 "syntax": {
                     "attribute": {
                         "color": "#8FBCBBFF",
