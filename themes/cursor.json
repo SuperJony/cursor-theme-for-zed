@@ -517,8 +517,8 @@
                 "editor.active_line.background": "#434C5E33",
                 "editor.active_line_number": "#7B88A1FF",
                 "editor.background": "#1E2127FF",
-                "editor.document_highlight.read_background": "#81A1C166",
-                "editor.document_highlight.write_background": "#81A1C199",
+                "editor.document_highlight.read_background": "#81A1C133",
+                "editor.document_highlight.write_background": "#81A1C166",
                 "editor.document_highlight.bracket_background": "#191C2200",
                 "editor.foreground": "#7B88A1FF",
                 "editor.gutter.background": "#1E2127FF",
@@ -736,7 +736,7 @@
                         "font_weight": null
                     },
                     "link_uri": {
-                        "color": "#8FBCBBFF",
+                        "color": "#7B88A1FF",
                         "font_style": null,
                         "font_weight": null
                     },
